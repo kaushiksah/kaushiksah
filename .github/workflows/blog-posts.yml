@@ -1,19 +1,19 @@
-name: Update latest Medium posts
+name: Latest blog post workflow
 
 on:
   schedule:
-    - cron: '0 0 */7 * *' # Runs every 7 days at midnight UTC
-  workflow_dispatch: # Allows manual run
+    - cron: "*/1 * * * *" # every 1 minute (testing mode)
+  workflow_dispatch: # allows you to run manually from Actions tab
 
 jobs:
-  update-readme:
-    runs-on: ubuntu-latest
+  update-readme-with-blog:
     name: Update README with latest blog posts
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Pull in Medium posts
-        uses: gautamkrishnar/blog-post-workflow@v1
+      - name: Fetch latest Medium posts
+        uses: gautamkrishnar/blog-post-workflow@master
         with:
           feed_list: "https://medium.com/feed/@kaushikblogs"
