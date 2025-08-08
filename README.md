@@ -42,9 +42,10 @@
 
 ## 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
-- [Why I prefer RxJS over Promises](https://medium.com/@kaushikblogs)
-- [debounceTime vs delay vs throttleTime in RxJS](https://medium.com/@kaushikblogs)
-- [RxJS for Beginners – Simple Intro to Observables](https://medium.com/@kaushikblogs)
+- [RxJS: debounceTime vs delay vs throttleTime — When to Use What?](https://medium.com/@kaushikblogs/rxjs-debouncetime-vs-delay-vs-throttletime-when-to-use-what-345b720d7c50?source=rss-71cc0ff363c2------2)
+- [RxJS for Beginners: A Friendly Guide to Observables, map&lpar;&rpar;, filter&lpar;&rpar;, and tap&lpar;&rpar;](https://medium.com/@kaushikblogs/rxjs-for-beginners-a-friendly-guide-to-observables-map-filter-and-tap-4c7bdebcc3eb?source=rss-71cc0ff363c2------2)
+- [Understanding Memoization in Angular: Improve Performance with Memoized Functions](https://medium.com/@kaushikblogs/understanding-memoization-in-angular-improve-performance-with-memoized-functions-391c14466d6c?source=rss-71cc0ff363c2------2)
+- [Top 5 Free Tools Every Beginner Should Use in 2025](https://medium.com/@kaushikblogs/top-5-free-tools-every-beginner-should-use-in-2025-1dc4d814948c?source=rss-71cc0ff363c2------2)
 <!-- BLOG-POST-LIST:END -->
 
 ---
